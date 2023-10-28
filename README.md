@@ -2,12 +2,12 @@
 Self-service Cashier
 Program ini dirancang untuk membantu Andi, pemilik sebuah supermarket besar di Indonesia, dalam meningkatkan proses bisnis dengan mengimplementasikan sistem kasir self-service. Berikut adalah ringkasan singkat dari poin-poin penting dalam projek. 
 
-##Latar Belakang Projek:
+Latar Belakang Projek:
 Andi memiliki sebuah supermarket besar dan berencana untuk meningkatkan proses bisnisnya dengan memperkenalkan sistem kasir self-service.
 Sistem ini memungkinkan pelanggan untuk memasukkan barang yang ingin mereka beli, termasuk nama barang, jumlah, dan harga.
 Sistem ini memungkinkan pelanggan untuk berbelanja secara online, meskipun mereka tidak berada di toko secara fisik.
 
-##Persyaratan:
+Persyaratan:
 	•	Program ini bersifat modular, dengan kode yang disimpan dalam sebuah file bernama "SelfServiceCashier.py", dan eksekusi ditangani oleh file "main.py" yang terpisah.
 	•	Program ini menggunakan pustaka Pandas untuk visualisasi data dalam format tabel.
 	•	Data disimpan dalam bentuk dictionary.
@@ -15,17 +15,16 @@ Sistem ini memungkinkan pelanggan untuk berbelanja secara online, meskipun merek
 
 <img width="253" alt="Screenshot 2023-10-28 at 11 48 56 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/847d4c78-39bf-4a8e-993e-ccbfcb02e854">
 
-##Structure
-###Class: Transaksi
+Structure
+Class: Transaksi
 
-###Atribut:
+Atribut:
 - data_belanja (kamus): Struktur data untuk menyimpan item-item dalam transaksi pelanggan. Setiap item diasosiasikan dengan namanya sebagai kunci, dan nilainya berupa daftar yang berisi:
   - Jumlah barang
   - Harga per item
   - Total harga untuk barang tersebut (kuantitas * harga)
 
-###Metode:
-
+Metode:
 1. __init__(self):
 	•	Deskripsi: Metode konstruktor untuk menginisialisasi kelas `Transaction`.
 	•	Parameter: Tidak ada
@@ -83,8 +82,8 @@ Deskripsi: Metode untuk menambahkan barang ke dalam transaksi.
 Representasi ini memberikan struktur yang jelas dari kelas 'Transaction', atribut-atributnya, dan tujuan serta fungsionalitas setiap metode.
 
 
-##Test Case
-###Test 1:
+Test Case
+Test 1:
 Customer ingin menambahkan dua item baru menggunakan method add item (). Item yang ditambahkan adalah sebagai berikut:
 1. Nama Item: Ayam Goreng, Qty: 2, Harga: 20000
 2. Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
@@ -92,21 +91,20 @@ Expected Output:
 
 <img width="525" alt="Screenshot 2023-10-28 at 11 19 04 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/ddab3180-ae03-4f4d-a7b3-8b19770176da">
 ￼
-
+Test case 2
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method delete _item () untuk menghapus item. Item yang. ingin dihapuskan adalah Pasta Gigi.
 Expected Output:
 
 <img width="532" alt="Screenshot 2023-10-28 at 11 21 21 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/df59ee99-b3fc-441c-83f1-189ea967663e">
 
 
-###Test case 3 
+Test case 3 
 Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan. 
 Expected Output:
 
 <img width="339" alt="Screenshot 2023-10-28 at 11 25 25 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/46e90106-a25a-4450-82e4-4252ff97be34">
 ￼
-
-###Test case 4 
+Test case 4 
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan Ouput total belanja akan menampilkan item item yang dibeli. 
 Expected Output:
 
@@ -115,5 +113,5 @@ Expected Output:
 <img width="469" alt="Screenshot 2023-10-28 at 11 37 35 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/d3a5ee8b-fc90-46b2-86a7-e1e0d03c54e5">
 
 
-##Kesimpulan
+Kesimpulan
 Kesimpulannya, proyek kasir-mandiri ini bertujuan untuk menyediakan solusi berbasis Python untuk supermarket untuk meningkatkan pengalaman berbelanja. Proyek ini terdiri dari kelas Transaction yang menawarkan beberapa fitur dan fungsi untuk menangani transaksi pelanggan. Fitur-fitur ini termasuk menambah, memperbarui, dan menghapus barang, memeriksa pesanan, dan menghitung total harga dengan diskon. Proyek ini juga menggunakan library Pandas untuk menampilkan detail barang dalam format tabel.
