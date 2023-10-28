@@ -30,7 +30,7 @@ Metode:
 	•	Parameter: Tidak ada
 	•	Fungsi: Menginisialisasi kamus `data_belanja` yang kosong.
 
-2. tambah_barang(diri, nama, jumlah, harga):
+2. add_item(self, nama, jumlah, harga):
 Deskripsi: Metode untuk menambahkan barang ke dalam transaksi.
 	•	Parameter:
 	⁃	`nama` (string): Nama item.
@@ -38,7 +38,7 @@ Deskripsi: Metode untuk menambahkan barang ke dalam transaksi.
 	⁃	`harga` (int/float): Harga per item.
 	•	Fungsi: Menghitung total harga untuk barang dan menyimpannya di dalam kamus `data_belanja`.
 
-3. update_nama_barang(self, nama, nama_baru):
+3. update_item_name(self, nama, nama_baru):
 	•	Deskripsi: Metode untuk memperbarui nama barang dalam transaksi.
 	•	Parameter:
 	⁃	`nama` (string): Nama item saat ini.
@@ -52,19 +52,19 @@ Deskripsi: Metode untuk menambahkan barang ke dalam transaksi.
 	⁃	`jumlah_baru` (int): Jumlah baru untuk item tersebut.
 	•	Fungsi: Memperbarui kuantitas dan total harga untuk item dalam kamus `data_belanja`.
 
-5. update_harga_barang(self, nama, harga_baru):
+5. update_item_price(self, nama, harga_baru):
 	•	Deskripsi: Metode untuk memperbarui harga dari sebuah item dalam transaksi.
 	•	Parameter:
 	⁃	`nama` (string): Nama item yang akan diperbarui.
 	⁃	`harga_baru` (int/float): Harga baru untuk item tersebut.
 	•	Fungsi: Memperbarui harga dan total harga barang dalam kamus `data_belanja`.
 
-6. hapus_barang(self, nama):
+6. delete_item(self, nama):
 	•	Deskripsi: Metode untuk menghapus item dari transaksi.
 	•	Parameter: `nama` (string): Nama item yang akan dihapus.
 	•	Fungsi: Menghapus item dari kamus `data_belanja`.
 
-7. setel ulang_transaksi (self):
+7. reset_transaction (self):
 	•	Deskripsi: Metode untuk menghapus seluruh transaksi, menghapus semua item dari kamus `data_belanja`.
 	•	Parameter: Tidak ada
 	•	Fungsi: Mengatur ulang transaksi ke kondisi awal.
@@ -74,7 +74,7 @@ Deskripsi: Metode untuk menambahkan barang ke dalam transaksi.
 	•	Parameter: Tidak ada
 	•	Fungsi: Jika ada item dalam transaksi, maka akan menampilkan tabel item, jumlah, harga, dan total harga, serta memberikan umpan balik tentang kebenaran pesanan.
 
-9. total_harga(self):
+9. total_price(self):
 	•	Deskripsi: Metode untuk menghitung harga total transaksi.
 	•	Parameter: Tidak ada
 	•	Fungsi: Mengulangi item-item dalam kamus `data_belanja`, menghitung jumlah total pembelian, menerapkan diskon berdasarkan jumlah total, dan mengembalikan pesan dengan harga total akhir, termasuk diskon yang berlaku.
