@@ -97,7 +97,6 @@ Expected Output:
 
 <img width="532" alt="Screenshot 2023-10-28 at 11 21 21 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/df59ee99-b3fc-441c-83f1-189ea967663e">
 
-
 Test case 3 
 Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan. 
 Expected Output:
@@ -111,7 +110,6 @@ Expected Output:
 <img width="540" alt="Screenshot 2023-10-28 at 11 28 05 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/aaf5b3bc-7044-4bdb-80a8-efbce7b0e9f6">
 
 <img width="469" alt="Screenshot 2023-10-28 at 11 37 35 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/d3a5ee8b-fc90-46b2-86a7-e1e0d03c54e5">
-
 
 Kesimpulan
 Kesimpulannya, proyek kasir-mandiri ini bertujuan untuk menyediakan solusi berbasis Python untuk supermarket untuk meningkatkan pengalaman berbelanja. Proyek ini terdiri dari kelas Transaction yang menawarkan beberapa fitur dan fungsi untuk menangani transaksi pelanggan. Fitur-fitur ini termasuk menambah, memperbarui, dan menghapus barang, memeriksa pesanan, dan menghitung total harga dengan diskon. Proyek ini juga menggunakan library Pandas untuk menampilkan detail barang dalam format tabel.
