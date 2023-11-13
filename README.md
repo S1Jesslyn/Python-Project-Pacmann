@@ -13,7 +13,8 @@ Persyaratan:
 	•	Data disimpan dalam bentuk dictionary.
 	•	Program ini terdiri dari 9 metode untuk menangani berbagai operasi.
 
-<img width="253" alt="Screenshot 2023-10-28 at 11 48 56 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/847d4c78-39bf-4a8e-993e-ccbfcb02e854">
+<img width="587" alt="Screenshot 2023-11-13 at 12 16 13 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/6ea4628d-2310-40e8-86bb-2dd68a255064">
+
 
 Structure
 Class: Transaksi
