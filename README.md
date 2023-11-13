@@ -13,7 +13,8 @@ Persyaratan:
 	•	Data disimpan dalam bentuk dictionary.
 	•	Program ini terdiri dari 9 metode untuk menangani berbagai operasi.
 
-<img width="587" alt="Screenshot 2023-11-13 at 12 16 13 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/6ea4628d-2310-40e8-86bb-2dd68a255064">
+
+<img width="236" alt="Screenshot 2023-11-13 at 12 24 04 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/156d3ab1-4bc8-4bdb-8737-cebbced2b298">
 
 
 Structure
@@ -90,27 +91,31 @@ Customer ingin menambahkan dua item baru menggunakan method add item (). Item ya
 2. Nama Item: Pasta Gigi, Qty: 3, Harga: 15000
 Expected Output:
 
-<img width="525" alt="Screenshot 2023-10-28 at 11 19 04 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/ddab3180-ae03-4f4d-a7b3-8b19770176da">
+<img width="516" alt="Screenshot 2023-11-13 at 12 25 52 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/736f4b0c-4362-4137-8264-6df7463503be">
+
 ￼
 Test case 2
 Ternyata Customer salah membeli salah satu item dari belanjaan yang sudah ditambahkan, maka Customer menggunakan method delete _item () untuk menghapus item. Item yang. ingin dihapuskan adalah Pasta Gigi.
 Expected Output:
 
-<img width="532" alt="Screenshot 2023-10-28 at 11 21 21 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/df59ee99-b3fc-441c-83f1-189ea967663e">
+<img width="531" alt="Screenshot 2023-11-13 at 12 24 55 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/76e0b94f-f13b-4155-b696-299553570c8d">
+
 
 Test case 3 
 Ternyata setelah dipikir-pikir Customer salah memasukkan item yang ingin dibelanjakan! Daripada menghapusnya satu satu, maka Customer cukup menggunakan method reset_transaction() untuk menghapus semua item yang sudah ditambahkan. 
 Expected Output:
 
-<img width="339" alt="Screenshot 2023-10-28 at 11 25 25 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/46e90106-a25a-4450-82e4-4252ff97be34">
+<img width="336" alt="Screenshot 2023-11-13 at 12 26 45 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/a9b73fd2-9826-49c7-af48-783e72357065">
+
 ￼
 Test case 4 
 Setelah Customer selesai berbelanja, akan menghitung total belanja yang harus dibayarkan menggunakan method total_price(). Sebelum mengeluarkan Ouput total belanja akan menampilkan item item yang dibeli. 
 Expected Output:
 
-<img width="540" alt="Screenshot 2023-10-28 at 11 28 05 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/aaf5b3bc-7044-4bdb-80a8-efbce7b0e9f6">
+<img width="534" alt="Screenshot 2023-11-13 at 12 27 24 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/0e73685f-729c-4084-ba35-afc17f265171">
 
-<img width="469" alt="Screenshot 2023-10-28 at 11 37 35 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/d3a5ee8b-fc90-46b2-86a7-e1e0d03c54e5">
+<img width="462" alt="Screenshot 2023-11-13 at 12 27 29 PM" src="https://github.com/S1Jesslyn/Python-Project-Pacmann/assets/132558743/c4b81136-d210-4433-bcec-e5730416034d">
+
 
 Kesimpulan
 Kesimpulannya, proyek kasir-mandiri ini bertujuan untuk menyediakan solusi berbasis Python untuk supermarket untuk meningkatkan pengalaman berbelanja. Proyek ini terdiri dari kelas Transaction yang menawarkan beberapa fitur dan fungsi untuk menangani transaksi pelanggan. Fitur-fitur ini termasuk menambah, memperbarui, dan menghapus barang, memeriksa pesanan, dan menghitung total harga dengan diskon. Proyek ini juga menggunakan library Pandas untuk menampilkan detail barang dalam format tabel.
